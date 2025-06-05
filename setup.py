@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="yandex-ris",
-    version="0.1.1",
+    version="0.1.2",
     author="BIGBALLON",
     author_email="fm.bigballon@gmail.com",
     description="A professional reverse image search and crawling tool that uses Yandex's image search engine to find and download similar images.",
@@ -49,6 +49,6 @@ setup(
     },
     project_urls={
         "Bug Reports": "https://github.com/BIGBALLON/yandex-ris/issues",
-        "Source": "https://github.com/BIGBALLON/yandex_ris",
+        "Source": "https://github.com/BIGBALLON/yandex-ris",
     },
 ) 

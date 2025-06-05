@@ -70,7 +70,7 @@ def parse_arguments():
     
     parser.add_argument('--workers', '-w',
                       type=int,
-                      default=None,
+                      default=2,
                       help='Number of parallel processing workers (default: 2)')
     
     parser.add_argument('--download-threads', '-t',
