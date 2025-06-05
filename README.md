@@ -7,6 +7,8 @@ A professional reverse image search and crawling tool that uses [Yandex](https:/
 - Multi-process parallel processing
 - Automatic resume for interrupted operations
 
+![demo](https://github.com/user-attachments/assets/737830de-ba18-4093-a9f3-d7f69713cff1)
+
 > Note: Yandex may restrict access if too many requests are made concurrently.  
 > -> https://yandex.ru/images/
 
