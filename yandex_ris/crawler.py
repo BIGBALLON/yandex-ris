@@ -203,7 +203,7 @@ class YandexImageCrawler:
         try:
             logging.info(f"\n=== Processing image {idx}/{total_images} ===")
             logging.info(f"Image path: {image_path}")
-            output_dir = os.path.join(self.output_dir, self._get_output_dir_name(image_path, self.output_dir))
+            output_dir = self._get_output_dir_name(image_path, self.output_dir)
             os.makedirs(output_dir, exist_ok=True)
 
             if self.resume and os.path.exists(state_file):

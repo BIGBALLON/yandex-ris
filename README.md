@@ -1,13 +1,14 @@
 # 🔍 Yandex Reverse Image Search Tool
 
-A professional reverse image search and crawling tool that uses Yandex's image search engine to find and download similar images.
+A professional reverse image search and crawling tool that uses [Yandex](https://yandex.ru/images/)'s image search engine to find and download similar images.
 
 - Advanced reverse image search with Yandex's AI engine
 - Support for local images, URLs, and directories
 - Multi-process parallel processing
 - Automatic resume for interrupted operations
 
-> Note: Yandex may restrict access if too many requests are made concurrently.
+> Note: Yandex may restrict access if too many requests are made concurrently.  
+> -> https://yandex.ru/images/
 
 ## Installation
 
